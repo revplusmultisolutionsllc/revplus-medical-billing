@@ -52,18 +52,18 @@ export const serviceSummaries: readonly ServiceSummary[] = [
     icon: "shield-check",
   },
   {
-    slug: "ar-recovery",
-    path: "/services/ar-recovery",
-    name: "Accounts Receivable Follow-Up",
-    navSub: "Aged AR review and action",
-    icon: "wallet",
-  },
-  {
     slug: "medical-transcription",
     path: "/services/medical-transcription",
     name: "Medical Transcription",
     navSub: "Clinical documentation support",
     icon: "mic",
+  },
+  {
+    slug: "ar-recovery",
+    path: "/services/ar-recovery",
+    name: "Accounts Receivable Follow-Up",
+    navSub: "Aged AR review and action",
+    icon: "wallet",
   },
   {
     slug: "claims-management",
