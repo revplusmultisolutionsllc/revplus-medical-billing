@@ -7,6 +7,7 @@ import { denialManagement } from "./denial-management";
 import { arRecovery } from "./ar-recovery";
 import { medicalTranscription } from "./medical-transcription";
 import { claimsManagement } from "./claims-management";
+import { freestandingEmergencyRoomsIdr } from "./freestanding-emergency-rooms-idr";
 
 /** Home-page order. */
 export const services = [
@@ -15,9 +16,10 @@ export const services = [
   revenueCycleManagement,
   providerCredentialing,
   denialManagement,
-  arRecovery,
   medicalTranscription,
+  arRecovery,
   claimsManagement,
+  freestandingEmergencyRoomsIdr,
 ] as const satisfies readonly ServicePage[];
 
 export function getService(slug: string) {

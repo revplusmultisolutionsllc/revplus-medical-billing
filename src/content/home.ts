@@ -6,8 +6,7 @@ export const home: HomeContent = {
     badge: "HIPAA-Compliant Revenue Cycle Support",
     title: ["More Clarity Across", "Your Revenue Cycle."],
     highlight: "Clarity",
-    lead:
-      "Revplus helps healthcare organizations organize medical billing, coding, claims, denials, credentialing and receivables through a clear, accountable workflow.",
+    lead: "Revplus helps healthcare organizations organize medical billing, coding, claims, denials, credentialing and receivables through a clear, accountable workflow.",
     primary: { label: "Request a Consultation", href: routes.freeAudit },
     secondary: { label: "Explore Services", href: routes.services },
     stats: [
@@ -19,14 +18,21 @@ export const home: HomeContent = {
   },
   payerStrip: {
     label: "Common US payer environments",
-    payers: ["Medicare", "Medicaid", "Blue Cross Blue Shield", "Aetna", "UnitedHealthcare", "Cigna", "Humana"],
+    payers: [
+      "Medicare",
+      "Medicaid",
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "UnitedHealthcare",
+      "Cigna",
+      "Humana",
+    ],
     more: { label: "Payer workflow overview", href: routes.payers },
   },
   services: {
     eyebrow: "Revenue Cycle Services",
     title: ["Support for the Work", "Behind Every Claim"],
-    lead:
-      "Choose focused support for one operational area or discuss a coordinated revenue-cycle workflow tailored to your practice.",
+    lead: "Choose focused support for one operational area or discuss a coordinated revenue-cycle workflow tailored to your practice.",
     extra: {
       icon: "receipt",
       title: "Payment Posting & Reconciliation",
@@ -37,8 +43,7 @@ export const home: HomeContent = {
   why: {
     eyebrow: "Why Revplus",
     title: ["A Disciplined Approach", "to Revenue Cycle Work"],
-    lead:
-      "Trust starts with knowing what is being worked, why it matters and what happens next. Our approach is designed around that visibility.",
+    lead: "Trust starts with knowing what is being worked, why it matters and what happens next. Our approach is designed around that visibility.",
     points: [
       {
         title: "Clear Ownership",
@@ -58,17 +63,32 @@ export const home: HomeContent = {
       },
     ],
     metrics: [
-      { label: "Claim readiness", value: "Review first", note: "Documentation, coding and claim details are checked before submission." },
-      { label: "Payer response", value: "Track next", note: "Rejections, requests and denials are routed to a defined follow-up step." },
-      { label: "Open balances", value: "Prioritize", note: "Receivables are segmented by age, payer and action required." },
-      { label: "Practice visibility", value: "Explain clearly", note: "Reporting focuses on what changed, what is pending and what needs input." },
+      {
+        label: "Claim readiness",
+        value: "Review first",
+        note: "Documentation, coding and claim details are checked before submission.",
+      },
+      {
+        label: "Payer response",
+        value: "Track next",
+        note: "Rejections, requests and denials are routed to a defined follow-up step.",
+      },
+      {
+        label: "Open balances",
+        value: "Prioritize",
+        note: "Receivables are segmented by age, payer and action required.",
+      },
+      {
+        label: "Practice visibility",
+        value: "Explain clearly",
+        note: "Reporting focuses on what changed, what is pending and what needs input.",
+      },
     ],
   },
   specialties: {
     eyebrow: "Specialty Workflows",
     title: ["Billing Support That Adapts", "to the Way You Deliver Care"],
-    lead:
-      "Different specialties create different documentation, coding and payer-follow-up patterns. Revplus begins by understanding those differences.",
+    lead: "Different specialties create different documentation, coding and payer-follow-up patterns. Revplus begins by understanding those differences.",
     tiles: [
       { icon: "heart-pulse", label: "Cardiology" },
       { icon: "bone", label: "Orthopedics" },
@@ -89,33 +109,66 @@ export const home: HomeContent = {
   process: {
     eyebrow: "How We Work",
     title: "A Practical Path From Discovery to Delivery",
-    lead:
-      "Every engagement starts with your current workflow. Scope, access, responsibilities and reporting are agreed before operational work begins.",
+    lead: "Every engagement starts with your current workflow. Scope, access, responsibilities and reporting are agreed before operational work begins.",
     steps: [
-      { title: "Understand", body: "We discuss your practice structure, payer mix, systems, pain points and current team responsibilities." },
-      { title: "Map", body: "We document the handoffs, data access, priorities and service boundaries needed for a controlled transition." },
-      { title: "Operate", body: "Agreed billing activities move through defined review, submission, follow-up and escalation steps." },
-      { title: "Communicate", body: "Regular reporting keeps open issues, dependencies and next actions visible to the right people." },
+      {
+        title: "Understand",
+        body: "We discuss your practice structure, payer mix, systems, pain points and current team responsibilities.",
+      },
+      {
+        title: "Map",
+        body: "We document the handoffs, data access, priorities and service boundaries needed for a controlled transition.",
+      },
+      {
+        title: "Operate",
+        body: "Agreed billing activities move through defined review, submission, follow-up and escalation steps.",
+      },
+      {
+        title: "Communicate",
+        body: "Regular reporting keeps open issues, dependencies and next actions visible to the right people.",
+      },
     ],
   },
   principles: {
     eyebrow: "What Partnership Looks Like",
     title: "Useful Habits, Not Unverified Promises",
-    lead:
-      "Revplus earns confidence through a transparent process and responsible communication—not inflated numbers or invented success stories.",
+    lead: "Revplus earns confidence through a transparent process and responsible communication—not inflated numbers or invented success stories.",
     items: [
-      { icon: "message", title: "Direct Communication", body: "Questions, blockers and requested decisions are surfaced early and explained in plain language." },
-      { icon: "search", title: "Detail-Oriented Review", body: "Claim and account details are checked in context before a next action is selected." },
-      { icon: "clipboard-check", title: "Documented Work", body: "Statuses and actions are recorded so your team can understand how an item moved forward." },
-      { icon: "refresh", title: "Consistent Follow-Up", body: "Open work is revisited using defined queues and escalation paths instead of informal reminders." },
-      { icon: "hand-heart", title: "Practice-Focused Support", body: "Recommendations consider the people, systems and constraints already present in your practice." },
-      { icon: "lock", title: "Privacy-Conscious Operations", body: "HIPAA-compliant handling of protected health information is built into the operating approach." },
+      {
+        icon: "message",
+        title: "Direct Communication",
+        body: "Questions, blockers and requested decisions are surfaced early and explained in plain language.",
+      },
+      {
+        icon: "search",
+        title: "Detail-Oriented Review",
+        body: "Claim and account details are checked in context before a next action is selected.",
+      },
+      {
+        icon: "clipboard-check",
+        title: "Documented Work",
+        body: "Statuses and actions are recorded so your team can understand how an item moved forward.",
+      },
+      {
+        icon: "refresh",
+        title: "Consistent Follow-Up",
+        body: "Open work is revisited using defined queues and escalation paths instead of informal reminders.",
+      },
+      {
+        icon: "hand-heart",
+        title: "Practice-Focused Support",
+        body: "Recommendations consider the people, systems and constraints already present in your practice.",
+      },
+      {
+        icon: "lock",
+        title: "Privacy-Conscious Operations",
+        body: "HIPAA-compliant handling of protected health information is built into the operating approach.",
+      },
     ],
   },
   cta: {
     title: "Let’s Talk About Your Billing Workflow",
-    lead:
-      "Share where the process feels unclear or difficult. Revplus will help you identify the most useful place to begin—without promising an outcome before reviewing the facts.",
+    lead: "Share where the process feels unclear or difficult. Revplus will help you identify the most useful place to begin—without promising an outcome before reviewing the facts.",
     button: { label: "Request a Consultation", href: routes.freeAudit },
     secondary: { label: "Call +1 (832) 942-9040", href: "tel:+18329429040" },
   },

@@ -23,7 +23,7 @@ export default function HomePage() {
   return (
     <>
       <HomeHero hero={home.hero} />
-      <PayerStrip strip={home.payerStrip} />
+      {/* <PayerStrip strip={home.payerStrip} /> */}
       <ServicesGrid content={home.services} />
       <WhyUs content={home.why} />
       <SpecialtiesGrid content={home.specialties} />
