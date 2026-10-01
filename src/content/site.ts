@@ -11,7 +11,7 @@ export const site = {
   title: "Revplus Medical Solutions | Medical Billing & Revenue Cycle Support",
   description:
     "Houston-based medical billing and revenue cycle support for healthcare organizations, including coding, claims, denials, credentialing and accounts receivable follow-up.",
-  phone: { display: "+1 (832) 942-9040", href: "tel:+18329429040", e164: "+1-832-942-9040" },
+  phone: { display: "+1 (832) 365-3780", href: "tel:+18329429040", e164: "+1-832-942-9040" },
   address: {
     street: "4065 S Braeswood Blvd",
     city: "Houston",

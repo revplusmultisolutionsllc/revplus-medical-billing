@@ -170,6 +170,6 @@ export const home: HomeContent = {
     title: "Let’s Talk About Your Billing Workflow",
     lead: "Share where the process feels unclear or difficult. Revplus will help you identify the most useful place to begin—without promising an outcome before reviewing the facts.",
     button: { label: "Request a Consultation", href: routes.freeAudit },
-    secondary: { label: "Call +1 (832) 942-9040", href: "tel:+18329429040" },
+    secondary: { label: "Call +1 (832) 365-3780", href: "tel:+18323653780" },
   },
 };
